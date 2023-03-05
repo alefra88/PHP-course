@@ -4,6 +4,8 @@
 	//1)Servidor
 	//2)Usuario de la BD
 	//3)Password del usuario de la BD
+
+	//mysql_connect esta actualmente obsoleta, remplazar por PDO_MySQL
 $conexion = mysql_connect("localhost","root","") or die("No se pudo conectar con el servidor de BD");
 echo "Estoy conectado a MySQL<br />";
 
