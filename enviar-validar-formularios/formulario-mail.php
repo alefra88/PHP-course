@@ -24,7 +24,7 @@
 				document.mail_frm.de_txt.focus();
 				verificar = false;
 			} else if(!expRegEmail.exec(document.mail_frm.de_txt.value)){
-				alert("El campo 'De' no es válido");
+				alert("El campo 'De' no es vï¿½lido");
 				document.mail_frm.de_txt.focus();
 				verificar = false;
 			} else if(!document.mail_frm.para_txt.value){
@@ -32,7 +32,7 @@
 				document.mail_frm.para_txt.focus();
 				verificar = false;
 			} else if(!expRegEmail.exec(document.mail_frm.para_txt.value)){
-				alert("El campo 'Para' no es válido");
+				alert("El campo 'Para' no es vï¿½lido");
 				document.mail_frm.para_txt.focus();
 				verificar = false;
 			} else if(!document.mail_frm.asunto_txt.value){
@@ -56,7 +56,7 @@
 	</script>
 </head>
 <body>
-	<form name="mail_frm" action="http://bextlan.com/alumnos/recursos/curso-PHP/enviar-mail.php" method="post" enctype="application/x-www-form-urlencoded">
+	<form name="mail_frm" action="enviar-phpmailer.php" method="post" enctype="application/x-www-form-urlencoded">
 		De: <input type="text" name="de_txt" /><br /><br />
 		Para: <input type="text" name="para_txt" /><br /><br />
 		Asunto: <input type="text" name="asunto_txt" /><br /><br />
